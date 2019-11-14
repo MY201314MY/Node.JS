@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>智能控制终端</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="checkbox">
+    <div class="inner">
+        <div class="toggle" id="K1"></div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.inner').toggleClass('active')
+        })
+    })
+</script>
+</body>
+</html>
